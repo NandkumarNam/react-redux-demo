@@ -1,1 +1,1 @@
-# formula2Revamp
+# React Redux Demo
