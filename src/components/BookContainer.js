@@ -9,7 +9,7 @@ const BookContainer = (props) => {
     return(
         <div>
             <label>Book Container</label>
-            <h1>Number of books - {props.numberOfBooks} and pens {props.numberOfPens} Available</h1>
+            <h1>Number of books - {props.numberOfBooks} and pens {props.numberOfPens} Available!!</h1>
             <input type="text" value={numberOfBooks} onChange={evt => setNumberOfBook(evt.target.value)} />
             <button onClick={() => props.buyBook(numberOfBooks)}>Buy {numberOfBooks} Book</button>
             <button onClick={props.buyPens}>Buy Pens</button>

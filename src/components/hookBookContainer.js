@@ -17,7 +17,7 @@ const HookBookContainer = () => {
         <div>
             <label>Hook's Book Container</label>
             <h1>Number of books - {numberOfBooks} and pens {numberOfPens}  Available</h1>
-            <button onClick={() => dispatch(buyBook())}>Buy Book</button>
+            <button onClick={() => dispatch(buyBook(5))}>Buy Book</button>
             <button onClick={() => dispatch(buyPens())}>Buy Pens</button>
         </div>
     );
